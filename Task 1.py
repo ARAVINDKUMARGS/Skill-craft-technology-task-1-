@@ -17,7 +17,7 @@ def convert_temperature(value, scale_from, scale_to):
         elif scale_to == "Fahrenheit":
             return (value - 273.15) * 9/5 + 32
 
-# Example
+
 temp = float(input("Enter the temperature value: "))
 from_scale = input("From (Celsius/Fahrenheit/Kelvin): ")
 to_scale = input("To (Celsius/Fahrenheit/Kelvin): ")
